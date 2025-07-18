@@ -4,10 +4,10 @@
 This microservice is part of the **Authentication-Domain** repository and is designed to handle the authentication and login process for the root user. It is built using Python and follows a microservices architecture with a focus on modularity and scalability.
 
 ## Repository Link 📁
-- [GitHub Repository](https://github.com/GaloViturco/RootService)
+- [GitHub Repository](https://github.com/FalAn06/Auth-Domain)
 
 ## Docker Image 🐳
-- **Docker Image:** `galo12/login-root`
+- **Docker Image:** `chamorrito/login-root`
 
 ## Purpose 🎯
 This microservice facilitates user authentication for the root user, allowing secure login capabilities within the system. The service ensures that sensitive authentication details are handled securely, using industry best practices.
@@ -58,7 +58,7 @@ Login-Root/
 ## How to Deploy ⚙️
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/GaloViturco/RootService
+   git clone https://github.com/FalAn06/Auth-Domain
    ```
 
 2. **Install Dependencies:**
@@ -70,11 +70,11 @@ Login-Root/
 3. **Docker Deployment:**
    - Build the Docker image:
      ```bash
-     docker build -t galo12/login-root .
+     docker build -t chamorrito/login-root .
      ```
    - Run the container:
      ```bash
-     docker run -p 5000:5000 galo12/login-root
+     docker run -p 5000:5000 chamorrito/login-root
      ```
 
 4. **Access the Service:**
